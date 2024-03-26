@@ -119,4 +119,183 @@ User shoud be given other options regarding the product he's looking for.
 ***Test Data:***
 User: - 
 
+------
+
+***Description:***
+Check if sign up works using an valid email.
+
+***Steps to reproduce:***
+1. Go to budgetmanager.com/signup.
+2. Add a correct email.
+3. Create a password
+4. Confirm password
+5. Press "sign-up" button.
+
+***Expected results:***
+User shoud have an new account am taken to home page.
+
+***Test Data:***
+User: dudeanu.valentin@gmail.com & Pass: DV123456
+
+------
+
+***Description:***
+Check if sign up works while leaving the email field empty.
+
+***Steps to reproduce:***
+1. Go to budgetmanager.com/signup.
+2. Create a password
+3. Confirm password
+4. Press "sign-up" button.
+
+***Expected results:***
+User shoud recieve a notification that he has to enter an email.
+
+***Test Data:***
+Pass: DV123456
+
+----------
+
+***Description:***
+Check if sign up works while leaving the password field .
+
+***Steps to reproduce:***
+1. Go to budgetmanager.com/signup.
+2. Add a correct email.
+3. Add a password to "reconfirm password" field
+4. Press "sign-up" button.
+
+***Expected results:***
+User shoud recieve a notification that he has to enter a password.
+
+***Test Data:***
+User: dudeanu.valentin@gmail.com
+
+---------
+
+***Description:***
+Check if sign up works while leaving the "reepassword" field empty.
+
+***Steps to reproduce:***
+1. Go to budgetmanager.com/signup.
+2. Add a correct email.
+3. Create a password
+4. Press "sign-up" button.
+
+***Expected results:***
+User shoud recieve a notification that he has to fill the "reepassword" field.
+
+***Test Data:***
+User: dudeanu.valentin@gmail.com & Pass: DV123456
+
+--------
+
+***Description:***
+Check if sign up works while having a different password from confirm password.
+
+***Steps to reproduce:***
+1. Go to budgetmanager.com/signup.
+2. Add a correct email.
+3. Create a password
+4. Confirm with a different password
+5. Press "sign-up" button.
+
+***Expected results:***
+User shoud recieve a notification that he has fill the repassword different
+
+***Test Data:***
+User: dudeanu.valentin@gmail.com & Pass: DV123456
+
+-------
+
+***Description:***
+Check if sign up works using an already taken email
+
+***Steps to reproduce:***
+1. Go to budgetmanager.com/signup.
+2. Add a already taken email.
+3. Create a password
+4. Confirm password
+5. Press "sign-up" button.
+
+***Expected results:***
+User shoud recieve a notification that the email is already taken.
+
+***Test Data:***
+User: dudeanu.valentin@gmail.com & Pass: DV123456
+
+-----------
+
+***Description:***
+Check if sign-in works witn invalid email adress
+
+***Steps to reproduce:***
+1. Go to budgetmanager.com/login.
+2. Add an invalid email.
+3. Add a correct password
+4. Press "sign-in" button.
+
+***Expected results:***
+User shoud recieve a notification that he entered an invalid email.
+
+***Test Data:***
+User: dudeanu.valentin1@gmail.com & Pass: DV123456
+
+--------
+
+***Description:***
+Check if sign-in works witn empty email field
+
+***Steps to reproduce:***
+1. Go to budgetmanager.com/login.
+2. Add a correct password
+3. Press "sign-in" button.
+
+***Expected results:***
+User shoud recieve a notification that you have to enter an email adress.
+
+***Test Data:***
+Pass: DV123456
+
+----------
+
+***Description:***
+Check if sign-in works witn empty password field
+
+***Steps to reproduce:***
+1. Go to budgetmanager.com/login.
+2. Add an valid email adress.
+3. Press "sign-in" button.
+
+***Expected results:***
+User shoud recieve a notification that you have to enter a password.
+
+***Test Data:***
+User: dudeanu.valentin1@gmail.com & Pass: DV123456
+
+------------
+
+***Description:***
+Check if show password functionality works
+
+***Steps to reproduce:***
+1. Go to budgetmanager.com/login.
+2. Add an invalid email.
+3. Add a correct password
+4. Press "show password" button.
+
+***Expected results:***
+User shoud see the password that he entered.
+
+***Test Data:***
+User: dudeanu.valentin1@gmail.com & Pass: DV123456
+
+
+
+
+
+
+
+
+
 
