@@ -465,6 +465,211 @@ User: dudeanu.valentin1@gmail.com pass" DV123456
 
 ------
 
+***Description:***
+Check if withdrowing money from cash works
+
+***Acceptance criteria***
+User shoud be logged in
+***Steps to reproduce:***
+1. Go to budgetmanager.com/homepage.
+2. Press "withdrow" button.
+3. Press "cash" button
+5. Enter the amount.
+6. Press "withdrow".
+
+***Expected results:***
+User shoud be able withdrow money from cash.
+
+***Test Data:***
+User: dudeanu.valentin1@gmail.com pass" DV123456
+
+-----
+
+***Description:***
+Check if transfering money from card to cash works
+
+***Acceptance criteria***
+User shoud be logged in
+***Steps to reproduce:***
+1. Go to budgetmanager.com/homepage.
+2. Select card to cash
+3. Press "transfer" button"
+4. Enter the amount.
+6. Press "transfer".
+
+***Expected results:***
+User shoud be able to transfer money from card to cash.
+
+***Test Data:***
+User: dudeanu.valentin1@gmail.com pass" DV123456
+
+--------
+
+***Description:***
+Check if transfering money from cash to card works
+
+***Acceptance criteria***
+User shoud be logged in
+***Steps to reproduce:***
+1. Go to budgetmanager.com/homepage.
+2. Press "transfer" button.
+3. Select cash to card
+4. Enter the amount.
+5. Press "withdrow".
+
+***Expected results:***
+User shoud be able withdrow money from cash.
+
+***Test Data:***
+User: dudeanu.valentin1@gmail.com pass" DV123456
+
+-----
+
+***Description:***
+Check if transaction history in cash works
+
+***Acceptance criteria***
+User shoud be logged in
+***Steps to reproduce:***
+1. Go to budgetmanager.com/homepage.
+2. Press "history" button.
+3. Select "cash"
+
+***Expected results:***
+User shoud be able see all the cash transactions.
+
+***Test Data:***
+User: dudeanu.valentin1@gmail.com pass" DV123456
+
+------
+
+***Description:***
+Check if transaction history in card works
+
+***Acceptance criteria***
+User shoud be logged in
+***Steps to reproduce:***
+1. Go to budgetmanager.com/homepage.
+2. Press "history" button.
+3. Select "card"
+
+***Expected results:***
+User shoud be able see all the card transactions.
+
+***Test Data:***
+User: dudeanu.valentin1@gmail.com pass" DV123456
+
+-------
+
+***Description:***
+Check if statistic in card in the last 7 days works
+
+***Acceptance criteria***
+User shoud be logged in
+***Steps to reproduce:***
+1. Go to budgetmanager.com/homepage.
+2. Press "statistic" button.
+3. Press "card" button.
+4. Press "7days" button.
+5. Press "submit"
+
+***Expected results:***
+User shoud be able see all the card transactions that he did in the last 7 days.
+
+***Test Data:***
+User: dudeanu.valentin1@gmail.com pass" DV123456
+
+-----
+
+***Description:***
+Check if statistic in card in the last 31 days works
+
+***Acceptance criteria***
+User shoud be logged in
+***Steps to reproduce:***
+1. Go to budgetmanager.com/homepage.
+2. Press "statistic" button.
+3. Press "card" button.
+4. Press "31 days" button.
+5. Press "submit"
+
+***Expected results:***
+User shoud be able see all the card transactions that he did in the last 31 days.
+
+***Test Data:***
+User: dudeanu.valentin1@gmail.com pass" DV123456
+
+------
+
+***Description:***
+Check if statistic in card in the last 12 mounths
+
+***Acceptance criteria***
+User shoud be logged in
+***Steps to reproduce:***
+1. Go to budgetmanager.com/homepage.
+2. Press "statistic" button.
+3. Press "card" button
+4. Press "12 mounths" button.
+5. Press "submit"
+
+***Expected results:***
+User shoud be able see all the card transactions that he did in the last 12 mounths.
+
+***Test Data:***
+User: dudeanu.valentin1@gmail.com pass" DV123456
+
+----
+
+***Description:***
+Check if statistic in cash in the last 7 days works
+
+***Acceptance criteria***
+User shoud be logged in
+***Steps to reproduce:***
+1. Go to budgetmanager.com/homepage.
+2. Press "statistic" button.
+3. Press "cash" button
+4. Press "7days" button.
+5. Press "submit"
+
+***Expected results:***
+User shoud be able see all the cash transactions that he did in the last 7 days.
+
+-----
+
+***Description:***
+Check if statistic in cash in the last 31 days works
+
+***Acceptance criteria***
+User shoud be logged in
+***Steps to reproduce:***
+1. Go to budgetmanager.com/homepage.
+2. Press "statistic" button.
+3. Press "cash" button
+4. Press "31 days" button.
+5. Press "submit"
+
+***Expected results:***
+User shoud be able see all the cash transactions that he did in the last 31 days.
+
+-----
+
+***Description:***
+Check if statistic in cash in the last 12 mounths works
+
+***Acceptance criteria***
+User shoud be logged in
+***Steps to reproduce:***
+1. Go to budgetmanager.com/homepage.
+2. Press "statistic" button.
+3. Press "cash" button
+4. Press "12 mounths" button.
+5. Press "submit"
+
+***Expected results:***
+User shoud be able see all the cash transactions that he did in the last 12 mounths.
+
 
 
 
