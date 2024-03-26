@@ -290,6 +290,185 @@ User shoud see the password that he entered.
 ***Test Data:***
 User: dudeanu.valentin1@gmail.com & Pass: DV123456
 
+---------
+
+***Description:***
+Check if forgot password works using valid email adresss
+
+***Steps to reproduce:***
+1. Go to budgetmanager.com/forgotpassword.
+2. Add an valid email.
+3. Press "reset password" button
+
+***Expected results:***
+User shoud recieve an email that has a link to change the password.
+
+***Test Data:***
+User: dudeanu.valentin1@gmail.com
+
+------
+
+***Description:***
+Check if forgot password works using invalid email adresss
+
+***Steps to reproduce:***
+1. Go to budgetmanager.com/forgotpassword.
+2. Add an invalid email.
+3. Press "reset password" button
+
+***Expected results:***
+User shoud recieve an notification that he need to enter an valid email adress.
+
+***Test Data:***
+User: dudeanu.valentin1@gmail.com
+
+------
+
+***Description:***
+Check if forgot password works with empty email field
+***Steps to reproduce:***
+1. Go to budgetmanager.com/forgotpassword.
+2. Press "reset password" button
+
+***Expected results:***
+User shoud recieve an noptification that he has to enter an email adress.
+
+***Test Data:***
+-
+
+------
+
+***Description:***
+Check if navigating between settings section and other section works
+
+***Acceptance criteria***
+User shoud be logged in
+***Steps to reproduce:***
+1. Go to budgetmanager.com/homepage.
+2. Press "wallet" button.
+3. Press "currency" button
+
+***Expected results:***
+User shoud be able to navigate between settings.
+
+***Test Data:***
+User: dudeanu.valentin1@gmail.com pass" DV123456
+
+-----
+
+***Description:***
+Check if opening about page works
+
+***Acceptance criteria***
+User shoud be logged in
+***Steps to reproduce:***
+1. Go to budgetmanager.com/homepage.
+2. Press "about" button.
+
+***Expected results:***
+User shoud be able to acces the about section.
+
+***Test Data:***
+User: dudeanu.valentin1@gmail.com pass" DV123456
+
+------
+
+***Description:***
+Check if opening about page works
+
+***Acceptance criteria***
+User shoud be logged in
+***Steps to reproduce:***
+1. Go to budgetmanager.com/homepage.
+2. Press "change currency" button.
+
+***Expected results:***
+User shoud be able to acces change currency section section.
+
+***Test Data:***
+User: dudeanu.valentin1@gmail.com pass" DV123456
+
+-----
+
+***Description:***
+Check if raiting the aplication works
+
+***Acceptance criteria***
+User shoud be logged in
+***Steps to reproduce:***
+1. Go to budgetmanager.com/homepage.
+2. Press "rate us" button.
+
+***Expected results:***
+User shoud be able to rate the aplication.
+
+***Test Data:***
+User: dudeanu.valentin1@gmail.com pass" DV123456
+
+------
+
+***Description:***
+Check if depositing money to card works
+
+***Acceptance criteria***
+User shoud be logged in
+***Steps to reproduce:***
+1. Go to budgetmanager.com/homepage.
+2. Press "deposit" button.
+3. Enter correct credentials.
+4. Enter the amount.
+
+***Expected results:***
+User shoud be able add money to app.
+
+***Test Data:***
+User: dudeanu.valentin1@gmail.com pass" DV123456
+
+------
+
+***Description:***
+Check if withdrowing money works
+
+***Acceptance criteria***
+User shoud be logged in
+***Steps to reproduce:***
+1. Go to budgetmanager.com/homepage.
+2. Press "withdrow" button.
+3. Enter the amount.
+4. Press "withdow" button
+
+***Expected results:***
+User shoud be able withdeow money from card.
+
+***Test Data:***
+User: dudeanu.valentin1@gmail.com pass" DV123456
+
+--------
+
+***Description:***
+Check if depositing money in cash works.
+
+***Acceptance criteria***
+User shoud be logged in
+***Steps to reproduce:***
+1. Go to budgetmanager.com/homepage.
+2. Press "depositing cash" button.
+3. Enter correct credentials.
+4. Enter the amount.
+5. Press "deposit" button
+
+***Expected results:***
+User shoud be able add money in cash to app.
+
+***Test Data:***
+User: dudeanu.valentin1@gmail.com pass" DV123456
+
+------
+
+
+
+
+
 
 
 
